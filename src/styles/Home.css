@@ -1,0 +1,373 @@
+
+/* 
+.FourOhFourContainer {
+    display: flex;
+    flex-direction: column;
+  } */
+
+
+  .wrapper{
+    min-height: 1200px;
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(9 1fr);
+    gap:  20px;
+    justify-items: center;
+    justify-content: center;
+
+   
+  
+  }
+
+  
+
+  #banner {
+  
+    grid-row-start: 1; 
+    grid-row-end: span 1;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    background-position: center;
+      height: 600px;   
+    width: 100%;
+    background-repeat: repeat;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    padding: 5% 5% 5% 5% ;
+    color: rgb(241, 234, 234);
+    font-weight: 300;
+/*     font-style: inherit;
+ */   /*  font-size: x-large;
+    position: relative; */
+
+  
+    
+  }
+
+  #banner h1 {
+    /*     font-family: 'Roboto', sans-serif;
+     */    font-weight: 400;
+        color: rgb(243, 133, 106);
+          font-size: 3.75em;
+        /*   position: absolute;
+          top: 50%;
+          transform: translateY(-50%); */
+          display: flex;
+          text-align: center;
+          justify-content: space-around;
+          
+      }
+
+  
+
+  #h1{
+    color: red;
+    width: 40vw;
+
+  }
+
+  #winner{
+    height: 150px;
+    grid-row-start: 2; 
+    grid-row-end: span 1;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    width: 100%;
+    background-repeat: no-repeat;
+
+
+  }
+
+  #h3{
+    grid-row-start: 3; 
+    grid-row-end: span 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  #featuredId{
+   
+    grid-row-start: 4; 
+    grid-row-end: span 1;
+    grid-column-start: 1;
+    grid-column-end:  3;
+/*     background-position: center;
+ */    width: 65%;
+   display: grid;
+   position: relative;
+   text-align:center;
+
+ /*    margin-left: auto;
+  margin-right: auto; */
+/*       justify-content: end;
+ *//*     align-items: center;
+     display: grid;
+
+    /*    justify-items: center; */
+      padding: 3% 5% 3% 5% ;
+  /*     display: inline-block; */
+    margin: 0% 5% 0% 35%;
+    
+  }
+
+
+ .carousel-indicators{
+  margin-right: 80%;
+  margin-bottom: 25rem;
+ }
+
+ .carousel-indicators [data-bs-target]{
+   width: 0px;
+   height: 0px;
+ }
+
+ #AboutBanner {
+  
+  grid-row-start: 5; 
+  grid-row-end: span 1;
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  background-position: center;
+    height: 400px;   
+  width: 100%;
+  background-repeat: no-repeat;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  
+  position: relative;
+
+
+  
+}
+
+#headline2{
+/*   background-image:url("../images/mauve.png");
+ */
+   
+  grid-row-start: 5; 
+  grid-row-end: span 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+ 
+
+ 
+}
+
+#BuyButton{
+  grid-row-start: 7; 
+  grid-row-end: span 1;
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+#SellButton{
+  grid-row-start: 7; 
+  grid-row-end: span 1;
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+#About{
+  text-align: center;
+  display: inline block;
+  padding-right: 0%;
+  grid-row-start: 6; 
+  grid-row-end: span 1;
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+
+
+  #consulting1{
+    height: 300px;   
+
+
+    grid-row-start: 7; 
+      grid-row-end: span 1;
+      grid-column-start: 1;
+      grid-column-end: span 1;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+
+    padding: 10% 5% 5% 5% ;
+
+    position: relative;
+
+  }
+
+  
+  #consulting2{
+    height: 300px;   
+
+    grid-row-start: 7; 
+  grid-row-end: span 1;
+  grid-column-start: 2;
+  grid-column-end: span 1;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    padding: 10% 5% 5% 5% ;
+
+    position: relative;
+
+  }
+ 
+  #logo {
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+    background-repeat: no-repeat;
+   
+  }
+ 
+  .h6{
+  font-weight: bold;
+  }
+
+
+  
+  .headline{
+    text-align: center;
+    display: inline block;
+    padding-right: 0%;
+
+  }
+
+
+  #consult4{
+    max-width: 500px;
+  }
+
+  
+
+/*   .FourOhFour {
+    font-size: 10rem;
+    line-height: 6rem;
+  }
+   */
+  
+   #BuyButton2{
+    margin: auto;
+   }
+   
+
+  @media only screen and (max-width: 767px){
+
+      .DDRLogo{
+        display: inline block;
+        max-width: 90%;
+
+      }
+
+      #banner{
+        display: inline block;
+        max-width: 100%;
+        height: 400px;   
+
+      }
+
+      #banner h1{
+        font-size: 2em;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+               
+      }
+
+      #winner{
+       margin-top: 30px;
+       min-width: 100%;
+       margin-left: 0x;
+       margin-bottom: 10px;
+       background-repeat: repeat;
+      height: 35vw;
+             
+    
+      }
+
+      #featuredId{
+          width: 90%;
+      display: grid;
+      position: relative;
+   
+    /*    margin-left: auto;
+     margin-right: auto; */
+   /*       justify-content: end;
+    *//*     align-items: center;
+        display: grid;
+   
+       /*    justify-items: center; */
+         padding: 5% 5% 5% 5% ;
+     /*     display: inline-block; */
+       margin: 5% 5% 5% 5%;
+      }
+
+      #About{
+   
+        margin-left: 30px;
+        margin-right: 30px;
+      
+      }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px)
+  {
+
+    
+
+    #featuredId{
+      width: 90%;
+  display: grid;
+  position: relative;
+
+/*    margin-left: auto;
+ margin-right: auto; */
+/*       justify-content: end;
+*//*     align-items: center;
+    display: grid;
+
+   /*    justify-items: center; */
+     padding: 5% 5% 5% 5% ;
+ /*     display: inline-block; */
+   margin: 0% 5% 0% 45%;
+  }
+
+  #winner{
+    margin-top: 30px;
+    min-width: 100%;
+    margin-left: 0x;
+    margin-bottom: 10px;
+    background-repeat: repeat;
+   height: 17vw;
+          
+ 
+   }
+
+
+  }
