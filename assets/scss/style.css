@@ -3744,6 +3744,18 @@ hr {
   color: #fff;
 }
 
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  #footerSocialAdjustment {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  #footerSocialAdjustment {
+    margin-top: 0px;
+  }
+}
+
 .hero-caption span {
   color: #fff;
   font-size: 16px;

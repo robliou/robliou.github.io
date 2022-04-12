@@ -86,3 +86,13 @@
 
 
 
+#footerSocialAdjustment{
+    @media #{$sm}{
+        margin-top:0px;
+        }
+        @media #{$xs}{
+        margin-top:0px;
+
+        }
+
+}
