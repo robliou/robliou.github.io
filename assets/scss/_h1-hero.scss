@@ -1,13 +1,13 @@
 
 .slider-height {
-    background-image: url(../img/hero/Background_scrawl.png);
+    background-image: url(../img/hero/Background_scrawl_2.png);
     min-height: 1000px;
     background-repeat:no-repeat ;
     background-position: center center;
     background-size: cover;
     @media #{$laptop}{
         min-height: 700px;
-        background-image: url(../img/hero/Background_scrawl.png);
+        background-image: url(../img/hero/Background_scrawl_2.png);
     }
     @media #{$md}{
         min-height: 700px;
