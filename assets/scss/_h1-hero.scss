@@ -33,7 +33,7 @@
     background-size: cover;
 
     @media #{$md}{
-        min-height: 700px;
+        min-height: 400px;
         background-image: url(../img/hero/Background_plain.png);
     }
     @media #{$sm}{
@@ -48,6 +48,8 @@
     }
     @media #{$xs}{
         min-height: 260px;
+        background-image: url(../img/hero/Background_plain.png);
+
     }
 }
 

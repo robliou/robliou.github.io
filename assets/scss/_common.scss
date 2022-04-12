@@ -863,10 +863,16 @@ hr {
 		@media #{$sm}{
 			padding-top: 60px;
 			padding-bottom: 30px;
+			margin-top: 30px;
+
 		}
 		@media #{$xs}{
+			
 			padding-top: 60px;
 			padding-bottom: 30px;
+			
+			margin-top: 30px;
+			
 		}
 	}
 
@@ -898,4 +904,50 @@ hr {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+#launchpadBanner{
+
+	@media #{$md}{
+			 object-fit: cover;
+			object-position: left;
+	}
+	@media #{$sm}{
+		min-height: 25vw;
+		
+
+	}
+	@media #{$xs}{
+		min-height: 25vw;
+		object-position: left;
+
+
+	}
+
+	#launchpadImage{
+	
+		@media #{$md}{
+			min-height: 17vw;
+			max-height: 17vw;
+				 object-fit: cover;
+				object-position: left;
+		}
+	
+		@media #{$sm}{
+			min-height: 25vw;
+			object-fit: cover;
+			object-position: left;
+			
+			 class: ""
+	
+		}
+		@media #{$xs}{
+			min-height: 25vw;
+			object-fit: cover;
+			object-position: left;
+	
+		}
+
+	}
+
 }

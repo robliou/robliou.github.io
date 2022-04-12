@@ -2435,6 +2435,7 @@ hr {
   .footer-padding {
     padding-top: 60px;
     padding-bottom: 30px;
+    margin-top: 30px;
   }
 }
 
@@ -2442,6 +2443,7 @@ hr {
   .footer-padding {
     padding-top: 60px;
     padding-bottom: 30px;
+    margin-top: 30px;
   }
 }
 
@@ -2481,6 +2483,61 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #launchpadBanner {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: left;
+       object-position: left;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  #launchpadBanner {
+    min-height: 25vw;
+  }
+}
+
+@media (max-width: 575px) {
+  #launchpadBanner {
+    min-height: 25vw;
+    -o-object-position: left;
+       object-position: left;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #launchpadBanner #launchpadImage {
+    min-height: 17vw;
+    max-height: 17vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: left;
+       object-position: left;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  #launchpadBanner #launchpadImage {
+    min-height: 25vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: left;
+       object-position: left;
+    class: "";
+  }
+}
+
+@media (max-width: 575px) {
+  #launchpadBanner #launchpadImage {
+    min-height: 25vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: left;
+       object-position: left;
+  }
 }
 
 /*-------------   Color Variable  --------------*/
@@ -2783,7 +2840,7 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-height2 {
-    min-height: 700px;
+    min-height: 400px;
     background-image: url(../img/hero/Background_plain.png);
   }
 }
@@ -2805,6 +2862,7 @@ hr {
 @media (max-width: 575px) {
   .slider-height2 {
     min-height: 260px;
+    background-image: url(../img/hero/Background_plain.png);
   }
 }
 
@@ -3104,6 +3162,45 @@ hr {
   padding-left: 25px;
   border-left: 2px solid #ff5f13;
   margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #mainContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  #mainContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 575px) {
+  #mainContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #picWidthAdjustment {
+    max-width: 60%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #widthAdjustment {
+    max-width: 60%;
+  }
 }
 
 .services-area .single-services img {

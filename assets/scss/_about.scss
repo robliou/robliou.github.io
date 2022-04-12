@@ -120,3 +120,31 @@
         }
     }
 }
+
+#mainContent{
+    @media #{$md}{
+        flex-direction: column;
+    }
+    @media #{$sm}{
+        flex-direction: column;
+    }
+    @media #{$xs}{
+        flex-direction: column;
+
+    }
+
+}
+
+#picWidthAdjustment{
+    @media #{$md}{
+        max-width:60%;
+    }
+}
+
+#widthAdjustment{
+    @media #{$md}{
+        max-width:60%;
+    }
+}
+
+
