@@ -5299,6 +5299,31 @@ hr {
   background-color: #1f2b7b;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #contactLogo {
+    font-size: 41px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #contactLogo {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  #contactLogo {
+    font-size: 31px;
+  }
+}
+
+@media (max-width: 575px) {
+  #contactLogo {
+    font-size: 24px;
+    line-height: 1.6;
+  }
+}
+
 .breadcam_bg {
   background-image: url(../img/banner/bradcam.png);
 }

@@ -150,4 +150,18 @@
   }
 }
 
-
+#contactLogo{
+  @media #{$lg}{
+    font-size: 41px;
+}
+@media #{$md}{
+    font-size: 35px;
+}
+@media #{$sm}{
+    font-size: 31px;
+}
+@media #{$xs}{
+    font-size: 24px;
+    line-height: 1.6;
+}
+}
