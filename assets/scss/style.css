@@ -2834,7 +2834,7 @@ hr {
 @media (max-width: 575px) {
   .slider-height {
     min-height: 600px;
-    background-image: url(../img/hero/Background_phone_scrawl.png);
+    background-image: url(../img/hero/Background_mini_scrawl.png);
   }
 }
 
