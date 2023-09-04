@@ -1,11 +1,11 @@
 import * as check from "check-broken-links";
 
 const containsBroken = [
-  "https://www.store.robliou.com",
+  "https://store.robliou.com",
   "https://www.robliou.com",
   "https://aha-login.herokuapp.com",
-  "https://www.store.robliou.com",
-  "https://www.store.robliou.com/blog",
+  "https://store.robliou.com",
+  "https://store.robliou.com/blog",
 ];
 check("https://base.url/", containsBroken).then((brokenlinks) => {
   console.log(brokenlinks);
