@@ -497,17 +497,45 @@ hr {
   box-shadow: none;
 }
 
+@media (max-width: 575px) {
+  .btn {
+    float: left;
+
+    margin-bottom: 20 !important;
+    margin-left: 35 !important;
+  }
+}
+
 .header-btn {
   padding: 27px 18px;
 }
 
-@media (max-width: 575px) {
+@media (min-width: 57px) and (max-width: 576px) {
   .hero-btn {
+    float: left;
+
     margin-bottom: 20 !important;
+    margin-left: 5 !important;
   }
 }
 
-@media (max-width: 575px) {
+.wordEdit {
+  background-color: #fff9c4;
+}
+
+@media (min-width: 57px) and (max-width: 576px) {
+  .wordEdit {
+    max-width: 285px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .wordEdit {
+    max-width: 375px;
+  }
+}
+
+@media (min-width: 57px) and (max-width: 576px) {
   .btn.btn-black.f-right {
     float: left;
     margin-top: 20px;
