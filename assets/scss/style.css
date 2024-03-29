@@ -2838,7 +2838,19 @@ hr {
     */
 }
 
-@media only screen and (min-width: 1400px) and (max-width: 1500px) {
+@media only screen and (max-width: 1230px) {
+  .container_index {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 1231px) and (max-width: 1290px) {
+  .container_index {
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (min-width: 1291px) and (max-width: 1500px) {
   .container_index {
     margin-left: 100px;
   }
@@ -2870,7 +2882,7 @@ hr {
   background-size: cover;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
   .slider-height {
     min-height: 700px;
     background-image: url(../img/hero/Background_scrawl_2.png);
